@@ -1,5 +1,5 @@
 fetch(
-  "http://api.worldbank.org/v2/countries/USA/indicators/SP.POP.TOTL?per_page=5000&format=json"
+  "https://api.worldbank.org/v2/countries/USA/indicators/SP.POP.TOTL?per_page=5000&format=json"
 )
   .then(function (response) {
     var jsonRes = response.json();
